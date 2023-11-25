@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('assets/fonts/Roboto-Bold.ttf');
+    font-family: 'Roboto';
+    src:url('assets/fonts/Roboto-Regular.ttf');
+}
+body{
+    background-color: hsl(234, 29%, 20%);
+    width: 1440px;
+}
+.main{
+    position:relative;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 250px;
+    background-color: hsl(0, 0%, 100%) ;
+    border-radius: 25px;
+}
+h1{
+   position: absolute;
+   top: 80px;
+   left:80px;
+   font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+.main-left{
+    /* width: 50%; */
+   display: flex;
+    flex-direction: column;
+    margin: auto 60px ;
+    padding-top: 50px;
+}
+.main-left--img{
+    display: flex;
+    /* margin-left: 10px; */
+}
+.main-left--img p{
+    white-space: nowrap;
+    padding: 10px 5px;
+
+}
+.main-rigth{
+    position: absolute;
+    right: 0;
+}
+#check{
+    margin-right: 10px;
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.main-form--label{
+    margin-bottom: 10px;
+}
+.main-form--input{
+    margin-bottom: 10px;
+    height: 55px;
+    border-radius: 5px;
+}
+button{
+    height: 50px;
+    background-color: #242742;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+footer{
+    margin-top: 20px;
+}
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+.attribution {
+     font-size: 16px; text-align: center; 
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
